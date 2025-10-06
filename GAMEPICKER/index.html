@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Game Picker - Everyone's a critic</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
+    />
+
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+ <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+      <div class="container">
+        <a class="navbar-brand fw-bold" href="index.html">
+          <i class="bi bi-controller me-2"></i>Game Picker
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="./news.html">News</a></li>
+            <li class="nav-item"><a class="nav-link" href="./reviews.html">Reviews</a></li>
+            <li class="nav-item"><a class="nav-link" href="./preview.html">Previews</a></li>
+            <li class="nav-item"><a class="nav-link" href="./cheats.html">Cheats</a></li>
+            <li class="nav-item"><a class="nav-link active" href="./cheats.html">Screens</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section class="hero-section bg-primary text-white py-5">
+      <div class="container">
+        <div class="row align-items-center min-vh-50">
+          <div class="col-lg-8 mx-auto text-center py-5">
+            <h1 class="display-3 fw-bold hero-heading mb-4">
+              Everyone's a critic. Now you can get in on the action.
+            </h1>
+            <p class="lead mb-4">
+              Join the ultimate gaming community and share your thoughts on the
+              latest releases
+            </p>
+            <button class="btn btn-light btn-lg shadow-btn">Get Started</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <main class="py-5">
+      <div class="container">
+        <section class="mb-5">
+          <h2 class="section-heading mb-4">
+            <i class="bi bi-newspaper me-2"></i>Featured News
+          </h2>
+          <div class="row g-4">
+            <div class="col-lg-8">
+              <div class="card shadow-card h-100">
+                <img
+                  src="./images/news1-batman.jpg"
+                  class="card-img-top"
+                  alt="Featured News"
+                />
+                <div class="card-body">
+                  <span class="badge bg-danger mb-2">Breaking</span>
+                  <h3 class="card-title">
+                    Next-Gen Console Wars Heat Up: New Announcements Expected
+                  </h3>
+                  <p class="card-text text-muted">
+                    <small
+                      ><i class="bi bi-calendar3 me-2"></i>January 4,
+                      2025</small
+                    >
+                  </p>
+                  <p class="card-text">
+                    Industry insiders suggest major announcements are coming
+                    this month as console manufacturers prepare to unveil their
+                    latest hardware innovations. Rumors point to significant
+                    performance upgrades and exclusive titles.
+                  </p>
+                  <a href="#" class="btn btn-primary"
+                    >Read More <i class="bi bi-arrow-right ms-1"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="card shadow-card mb-3">
+                <div class="card-body">
+                  <span class="badge bg-info mb-2">Trending</span>
+                  <h5 class="card-title">
+                    Indie Game Sensation Breaks Sales Records
+                  </h5>
+                  <p class="card-text text-muted">
+                    <small
+                      ><i class="bi bi-calendar3 me-2"></i>January 3,
+                      2025</small
+                    >
+                  </p>
+                  <a href="#" class="stretched-link text-decoration-none"
+                    >Read more <i class="bi bi-arrow-right"></i
+                  ></a>
+                </div>
+              </div>
+              <div class="card shadow-card">
+                <div class="card-body">
+                  <span class="badge bg-warning text-dark mb-2">Update</span>
+                  <h5 class="card-title">
+                    Major Patch Released for Popular MMO
+                  </h5>
+                  <p class="card-text text-muted">
+                    <small
+                      ><i class="bi bi-calendar3 me-2"></i>January 2,
+                      2025</small
+                    >
+                  </p>
+                  <a href="#" class="stretched-link text-decoration-none"
+                    >Read more <i class="bi bi-arrow-right"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="mb-5">
+          <h2 class="section-heading mb-4">
+            <i class="bi bi-star-fill me-2"></i>Game Reviews
+          </h2>
+          <div class="row g-4">
+            <div class="col-lg-6">
+              <div class="card shadow-card h-100">
+                <img
+                  src="./images/review1-lego.jpg?height=300&width=600"
+                  class="card-img-top"
+                  alt="Featured Review"
+                />
+                <div class="card-body">
+                  <div
+                    class="d-flex justify-content-between align-items-center mb-2"
+                  >
+                    <span class="badge bg-success">Editor's Choice</span>
+                    <div class="rating-badge">
+                      <i class="bi bi-star-fill text-warning"></i>
+                      <span class="fw-bold">9.5/10</span>
+                    </div>
+                  </div>
+                  <h3 class="card-title">Cyber Legends: Revolution</h3>
+                  <p class="card-text">
+                    A groundbreaking action RPG that pushes the boundaries of
+                    storytelling and gameplay. The immersive world and
+                    innovative combat system make this a must-play title for
+                    2025.
+                  </p>
+                  <a href="#" class="btn btn-outline-primary"
+                    >Full Review <i class="bi bi-arrow-right ms-1"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="list-group shadow-card">
+                <a href="#" class="list-group-item list-group-item-action">
+                  <div
+                    class="d-flex w-100 justify-content-between align-items-center"
+                  >
+                    <div>
+                      <h5 class="mb-1">Space Odyssey Remastered</h5>
+                      <small class="text-muted"
+                        >Classic returns with stunning visuals</small
+                      >
+                    </div>
+                    <span class="badge bg-primary rounded-pill">8.5/10</span>
+                  </div>
+                </a>
+                <a href="#" class="list-group-item list-group-item-action">
+                  <div
+                    class="d-flex w-100 justify-content-between align-items-center"
+                  >
+                    <div>
+                      <h5 class="mb-1">Fantasy Quest Chronicles</h5>
+                      <small class="text-muted"
+                        >Epic adventure awaits brave heroes</small
+                      >
+                    </div>
+                    <span class="badge bg-primary rounded-pill">9.0/10</span>
+                  </div>
+                </a>
+                <a href="#" class="list-group-item list-group-item-action">
+                  <div
+                    class="d-flex w-100 justify-content-between align-items-center"
+                  >
+                    <div>
+                      <h5 class="mb-1">Racing Thunder 2025</h5>
+                      <small class="text-muted"
+                        >High-octane racing at its finest</small
+                      >
+                    </div>
+                    <span class="badge bg-primary rounded-pill">8.0/10</span>
+                  </div>
+                </a>
+                <a href="#" class="list-group-item list-group-item-action">
+                  <div
+                    class="d-flex w-100 justify-content-between align-items-center"
+                  >
+                    <div>
+                      <h5 class="mb-1">Horror Mansion: Dark Secrets</h5>
+                      <small class="text-muted"
+                        >Spine-chilling survival horror</small
+                      >
+                    </div>
+                    <span class="badge bg-primary rounded-pill">7.5/10</span>
+                  </div>
+                </a>
+                <a href="#" class="list-group-item list-group-item-action">
+                  <div
+                    class="d-flex w-100 justify-content-between align-items-center"
+                  >
+                    <div>
+                      <h5 class="mb-1">Strategy Empire Builder</h5>
+                      <small class="text-muted"
+                        >Build your civilization from scratch</small
+                      >
+                    </div>
+                    <span class="badge bg-primary rounded-pill">8.8/10</span>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="mb-5">
+          <h2 class="section-heading mb-4">
+            <i class="bi bi-eye-fill me-2"></i>Game Previews
+          </h2>
+          <div class="row g-4">
+            <div class="col-lg-6">
+              <div class="card shadow-card h-100">
+                <img
+                  src="./images/preview1-black-flag.jpg?height=300&width=600"
+                  class="card-img-top"
+                  alt="Featured Preview"
+                />
+                <div class="card-body">
+                  <span class="badge bg-info mb-2">Coming Soon</span>
+                  <h3 class="card-title">Neon Warfare: First Look</h3>
+                  <p class="card-text text-muted">
+                    <small
+                      ><i class="bi bi-calendar3 me-2"></i>Release: March
+                      2025</small
+                    >
+                  </p>
+                  <p class="card-text">
+                    We got hands-on time with the most anticipated shooter of
+                    the year. The futuristic setting and innovative multiplayer
+                    modes promise to revolutionize competitive gaming.
+                  </p>
+                  <a href="#" class="btn btn-outline-info"
+                    >Read Preview <i class="bi bi-arrow-right ms-1"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="list-group shadow-card">
+                <a href="#" class="list-group-item list-group-item-action">
+                  <div class="d-flex w-100 justify-content-between">
+                    <div>
+                      <h5 class="mb-1">Dragon Age: Legends Reborn</h5>
+                      <small class="text-muted">Q2 2025 • RPG</small>
+                    </div>
+                    <i class="bi bi-chevron-right"></i>
+                  </div>
+                </a>
+                <a href="#" class="list-group-item list-group-item-action">
+                  <div class="d-flex w-100 justify-content-between">
+                    <div>
+                      <h5 class="mb-1">Stealth Ops: Shadow Protocol</h5>
+                      <small class="text-muted">April 2025 • Action</small>
+                    </div>
+                    <i class="bi bi-chevron-right"></i>
+                  </div>
+                </a>
+                <a href="#" class="list-group-item list-group-item-action">
+                  <div class="d-flex w-100 justify-content-between">
+                    <div>
+                      <h5 class="mb-1">Puzzle Masters: Mind Bender</h5>
+                      <small class="text-muted">February 2025 • Puzzle</small>
+                    </div>
+                    <i class="bi bi-chevron-right"></i>
+                  </div>
+                </a>
+                <a href="#" class="list-group-item list-group-item-action">
+                  <div class="d-flex w-100 justify-content-between">
+                    <div>
+                      <h5 class="mb-1">Open World Adventures: Infinite</h5>
+                      <small class="text-muted">Q3 2025 • Adventure</small>
+                    </div>
+                    <i class="bi bi-chevron-right"></i>
+                  </div>
+                </a>
+                <a href="#" class="list-group-item list-group-item-action">
+                  <div class="d-flex w-100 justify-content-between">
+                    <div>
+                      <h5 class="mb-1">Sports Championship 2026</h5>
+                      <small class="text-muted">December 2025 • Sports</small>
+                    </div>
+                    <i class="bi bi-chevron-right"></i>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <footer class="bg-dark text-white pt-5 pb-3">
+      <div class="container">
+        <div class="row g-4">
+          <div class="col-lg-4">
+            <h4 class="footer-logo mb-3">
+              <i class="bi bi-controller me-2"></i>Game Picker
+            </h4>
+            <p class="text-muted">
+              Your ultimate destination for gaming news, reviews, and community
+              discussions.
+            </p>
+            <div class="social-icons mt-3">
+              <a href="#" class="social-icon me-3"
+                ><i class="bi bi-facebook"></i
+              ></a>
+              <a href="#" class="social-icon me-3"
+                ><i class="bi bi-twitter-x"></i
+              ></a>
+              <a href="#" class="social-icon me-3"
+                ><i class="bi bi-instagram"></i
+              ></a>
+              <a href="#" class="social-icon me-3"
+                ><i class="bi bi-youtube"></i
+              ></a>
+              <a href="#" class="social-icon"><i class="bi bi-discord"></i></a>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-4">
+            <h5 class="mb-3">Navigation</h5>
+            <ul class="list-unstyled footer-links">
+              <li><a href="#">Home</a></li>
+              <li><a href="#">News</a></li>
+              <li><a href="#">Reviews</a></li>
+              <li><a href="#">Previews</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-2 col-md-4">
+            <h5 class="mb-3">Resources</h5>
+            <ul class="list-unstyled footer-links">
+              <li><a href="#">Cheats</a></li>
+              <li><a href="#">Screens</a></li>
+              <li><a href="#">Forums</a></li>
+              <li><a href="#">Videos</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-2 col-md-4">
+            <h5 class="mb-3">Company</h5>
+            <ul class="list-unstyled footer-links">
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Contact</a></li>
+              <li><a href="#">Careers</a></li>
+              <li><a href="#">Advertise</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-2 col-md-4">
+            <h5 class="mb-3">Legal</h5>
+            <ul class="list-unstyled footer-links">
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Terms of Service</a></li>
+              <li><a href="#">Cookie Policy</a></li>
+            </ul>
+          </div>
+        </div>
+        <hr class="my-4 bg-secondary" />
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <p class="mb-0 text-muted">
+              &copy; 2025 Game Picker. All rights reserved.
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
